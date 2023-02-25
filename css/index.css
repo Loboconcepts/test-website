@@ -1,0 +1,16 @@
+p, h1 {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.red {
+	color: #ff0000;
+}
+@media screen and (max-width: 480px) {
+	p, h1 {
+		font-size: 30px;
+	}
+}
